@@ -13,7 +13,8 @@ public class Hooks {
 		
 		if(stepDefinition.place_id==null)
 		{
-		
+		System.out.println("testing");
+			
 		m.add_Place_Payload_with("Shetty", "bb", "cc");
 		m.user_calls_using_http_request("AddPlaceAPI", "POST");
 		m.verify_place_Id_created_maps_to_using("Shetty", "getPlaceAPI");

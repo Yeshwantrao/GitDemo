@@ -11,6 +11,8 @@ public enum APIResource {
     
 	APIResource(String resource) {
 		// TODO Auto-generated constructor stub
+		
+		
 		this.resource=resource;
 	}
 	
